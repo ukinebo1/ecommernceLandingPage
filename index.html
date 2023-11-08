@@ -16,7 +16,7 @@
             <div>
                 <img src="./assets/Menu.svg" alt="Landing Page Logo" srcset="">
             </div>
-            <div>
+            <div class="navPara">
                 <p>ALPINE</p>
             </div>
             <div>
@@ -28,18 +28,25 @@
         </nav>
 
         <section class="hero container">
-            <div>
+            <div class="heroDetails">
                 <h1>Kasia Aviator</h1>
                 <p>Imagina unos lentes de sol absolutamente impresionantes, diseñados para aquellos que buscan una combinación perfecta entre estilo y funcionalidad</p>
-                <p>Precio habitual: $4,420.00 MXN Precio de oferta: $3,770.00 MXN</p>
-                <button type="submit">Comprar</button>
+                <p>Precio habitual: <span style="text-decoration: line-through;">$4,420.00 MXN</span></p>
+                <p>Precio de oferta: $3,770.00 MXN</p>
+                <button type="submit" class="btn">Comprar</button>
+                <div class="heroNext">
+                <span>
+                    <img src="./assets/feArrowUp2 (2).svg" alt="" srcset="" style="margin-left: 6px;">
+                    <span class="heroNextText">Detalles del producto</span>
+                </span>
+            </div>
             </div>
 
-            <div>
-                <img src="./assets/headerSunglasses.png" alt="" srcset="">
-                <span>
+            <div class="heroSecondSection">
+                <img src="./assets/headerSunglasses.png" alt="" srcset="" class="heroSunglasses">
+                <span class="heroSecondSectionSpan">
                     <img src="./assets/feArrowUp2.svg" alt="" srcset="">
-                    Imagen 1
+                    <span>Imagen 1</span>
                     <img src="./assets/feArrowUp2 (1).svg" alt="" srcset="">
                 </span>
             </div>
@@ -47,8 +54,8 @@
     </header>
 
     <main>
-        <section>
-            <ul>
+        <section >
+            <ul class="sect1List">
                 <li>Fashion</li>
                 <li>Travel</li>
                 <li>Every Gay</li>
